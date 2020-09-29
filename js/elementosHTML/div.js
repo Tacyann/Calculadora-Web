@@ -1,6 +1,6 @@
-import Button from "./button";
-import Input from "./input";
-import Label from "./label";
+import Button from "./button.js";
+import Input from "./input.js";
+import Label from "./label.js";
 
 export default class Div{
 
@@ -32,5 +32,5 @@ export default class Div{
     }
 
 
-    
+
 }

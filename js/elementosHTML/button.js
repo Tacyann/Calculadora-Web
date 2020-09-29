@@ -1,4 +1,4 @@
-import TextNode from "./text_node";
+import TextNode from "./text_node.js";
 
 export default class Button{
 
