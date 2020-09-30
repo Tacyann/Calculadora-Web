@@ -1,3 +1,4 @@
+
 let count = []
 let saveAction
 
@@ -109,3 +110,4 @@ function Percentage() {
         document.getElementById("total").innerHTML = Number(document.getElementById("total").innerHTML) / 100
     }
 }
+
