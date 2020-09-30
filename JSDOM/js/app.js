@@ -1,12 +1,25 @@
-function init(){
-let index = document.getElementById("index");
-body.style.position = "absolute";
-body.style.top = "10px";
-body.style.left = "10px";
-body.style.width = "1480px";
-body.style.height = "200px";
-body.style.border = " 1px solid";
-body.style.borderColor = "#DCDCDC";
+//import Calculadora from "./pagina/calculadora";
+
+export default class App{
+
+    constructor(){
+
+        console.log("Calculadora JS");
+        this.init();
+
+        //new Calculadora().criar();
+    }
+        init =( ) =>
+        {
+            var index = document.getElementById("index");
+            index.style.position = "absolute";
+            index.style.top = "10px";
+            index.style.left = "10px";
+
+
+        }
+        
+
 }
 
-init();
+new App();
